@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="home">
+        <img src="logo.webp" alt="logo">
+        <p>Text Analyzer</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#faqs">FAQ's</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <p>Paste your text here to instantly get detailed insights including character count, word count, vowels,
+                most used words, emails, and phone numbers.</p>
+            <textarea class="text" id="userText" placeholder="Enter the text here....."></textarea>
+            <br>
+            <button onclick="analyze()">Analyze</button>
+            <h1>Result</h1>
+            <div class="output" id="result"></div>
+        </div>
+
+    </main>
+
+    <summary id="faqs">
+        <div class="faq">
+            <h1>Frequently Asked Questions(FAQ's) :-</h1>
+            <div class="faq-item">
+                <h3 class="question">🔹 1. What does this tool do?</h3>
+                <p class="answer"> This tool analyzes your pasted text and shows you the number of characters, words,
+                    vowels, the most used words, and any detected email addresses or phone numbers.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 2. Is my text saved or stored anywhere?</h3>
+                <p class="answer">No, your text is not saved or stored. All analysis happens in your browser for
+                    complete privacy.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 3. What types of phone numbers or emails are detected?</h3>
+                <p class="answer">The tool detects common email formats and phone numbers with or without country codes
+                    (e.g., +1, +91, etc.).</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 4. Can I use this on mobile?</h3>
+                <p class="answer">No, the tool is not ready to work on all devices, including phones and tablets. It only works on PC and Laptop.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 5. What happens if I paste a large amount of text?</h3>
+                <p class="answer">The tool is optimized to handle large text inputs efficiently. It may take slightly
+                    longer, but it will still work accurately.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 6. Can I copy the analysis results?</h3>
+                <p class="answer">Yes, you can easily copy or screenshot the results for your use.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">🔹 7. How is the "most used word" calculated?</h3>
+                <p class="answer">The tool counts each word's frequency and displays the one(s) that appear most often,
+                    ignoring common filler words (like "the", "and", etc.) if needed.</p>
+            </div>
+        </div>
+    </summary>
+
+    <footer id="contact">
+        <p>&copy; Copyright 2025. Text Analyzer All rights Reserved by Asad.</p>
+        <div class="qlinks">
+            <li><a href="#home">Home</a></li>  |
+            <li><a href="#faqs">FAQ's</a></li>  |
+            <li><a href="#contact">Contact us</a></li>
+        </div>
+        <p class="footer-note">
+            This tool is for educational and informational purposes only. No data is stored or shared.
+        </p>
+
+        <div class="footer-social">
+            <p>Contact us by clicking on the buttons</p>
+            <a href="https://github.com/Asadcodeing" class="button" target="_blank">GitHub</a> |
+            <a href="mailto:asadrgm2@gmail.com" class="button">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

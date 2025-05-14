@@ -1,0 +1,194 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #feb3b3, #dbe6eba0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    margin: 0px 0px;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color: purple;
+    color: #feb3b3;
+    justify-content: space-between;
+}
+
+nav img {
+    margin: 10px;
+    padding: 80px;
+    width: 60px;
+}
+
+nav p {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0px 20px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 500;
+    align-items: center;
+}
+
+nav ul li a{
+    margin: 0px 20px 0px 2px;
+    padding: 5px;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #bbbbbbd6;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+
+.container {
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    margin: 50px 350px;
+    background-color: wheat;
+}
+
+main p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+main .text {
+    margin: 10px;
+    width: 700px;
+    height: 150px;
+    border-radius: 7px 0px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+main button {
+    width: 100px;
+    margin: 5px 300px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    text-decoration: solid;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-width: 3px;
+    border-radius: 4px;
+}
+
+main button:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 175);
+}
+
+/* Responsive styles for mobile */
+/* @media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+} */
+
+.output {
+  width: 100%;
+  height: 125px;
+  resize: vertical; /* Allows user to resize */
+  overflow-y: auto;   /* Enables scrollbars if content overflows */
+  box-sizing: border-box;
+  padding: 1px;
+  font-size: 16px;
+  
+}
+
+
+summary .faq h1{
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+summary .faq{
+    width: auto;
+    margin: 10px 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: wheat;
+}
+summary .faq .faq-item .question{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+summary .faq .faq-item .answer{
+    color: rgb(0, 0, 0);
+    margin-left: 3%;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+footer{
+    width: auto;
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: wheat;
+    justify-content: center;
+}
+
+footer p{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+footer .qlinks{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.footer-note {
+  margin-top: 15px;
+  color: #000000;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-social{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 30%;
+}
+.footer-social .button{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
+    width: auto;
+    height: 30px;
+    background-color: rgb(31, 31, 103);
+    color: white;
+}
