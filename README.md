@@ -22,7 +22,7 @@ Text Analyzer is a simple yet powerful web-based tool that allows users to paste
 ✅ Responsive Design – (Currently optimized for desktop and laptop devices).
 
 # 🚀 Live Demo
-Coming soon (You can deploy this on GitHub Pages and add your link here)
+https://asadcodeing.github.io/Text-Analyzer/
 
 # 💡 How to Use
 
